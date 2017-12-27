@@ -10,4 +10,6 @@
 
 @interface BTConnector : NSObject
 
+- (void)connect;
+
 @end

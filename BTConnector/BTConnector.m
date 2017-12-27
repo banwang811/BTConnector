@@ -9,5 +9,7 @@
 #import "BTConnector.h"
 
 @implementation BTConnector
-
+- (void)connect{
+    NSLog(@"%@",NSStringFromSelector(_cmd));
+}
 @end
